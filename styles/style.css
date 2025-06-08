@@ -1,0 +1,83 @@
+/* Reset & font */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f6fc;
+  color: #3b0a4d;
+  padding: 20px;
+  margin: 0;
+}
+
+/* Navigasi */
+nav {
+  background-color: #7e57c2;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Formulir */
+form {
+  background-color: #ede7f6;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(126, 87, 194, 0.2);
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #d1c4e9;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background-color: white;
+  color: #4a148c;
+}
+
+button {
+  background-color: #7e57c2;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #5e35b1;
+}
+
+/* Konten daftar */
+#jadwal-list,
+#catatan-list,
+#todo-list {
+  background-color: #f3e5f5;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(126, 87, 194, 0.2);
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  text-align: center;
+  color: #8e24aa;
+  font-size: 14px;
+}
